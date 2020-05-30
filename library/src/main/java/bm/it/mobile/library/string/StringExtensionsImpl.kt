@@ -58,7 +58,7 @@ object StringExtensionsImpl {
         return bitmap.convertToByteArray()
     }
 
-    fun convertImagePathToResizeImage(path: String): Bitmap {
+    fun convertImagePathToBitmapResizeImage(path: String): Bitmap {
         val bitmap = path.convertImagePathToBitmap()
         return bitmap.convertToSmallBitmap()
     }
@@ -100,7 +100,7 @@ object StringExtensionsImpl {
         return myBitmap
     }
 
-    fun convertFilePathToDigestSHA256(path: String): String {
+    fun convertImagePathToDigestSHA256(path: String): String {
         var digest = ""
         try {
             val file = FileInputStream(path)

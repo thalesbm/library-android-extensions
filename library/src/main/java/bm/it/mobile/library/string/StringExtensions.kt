@@ -21,12 +21,12 @@ fun String.convertBase64ToRoundedBitmap(context: Context): RoundedBitmapDrawable
 fun String.convertBase64ToByteArray(): ByteArray =
     StringExtensionsImpl.convertBase64ToByteArray(this)
 
-fun String.convertImagePathToResizeImage(): Bitmap =
-    StringExtensionsImpl.convertImagePathToResizeImage(this)
+fun String.convertImagePathToBitmapResizeImage(): Bitmap =
+    StringExtensionsImpl.convertImagePathToBitmapResizeImage(this)
 
 fun String.convertImagePathToBase64(): String = StringExtensionsImpl.convertImagePathToBase64(this)
 
 fun String.rotateImageFromImagePath(): Bitmap = StringExtensionsImpl.rotateImageFromImagePath(this)
 
-fun String.convertFilePathToDigestSHA256(): String =
-    StringExtensionsImpl.convertFilePathToDigestSHA256(this)
+fun String.convertImagePathToDigestSHA256(): String =
+    StringExtensionsImpl.convertImagePathToDigestSHA256(this)
