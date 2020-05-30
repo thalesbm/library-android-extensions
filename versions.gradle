@@ -7,4 +7,6 @@ ext {
     gradleVersion = '3.6.2'
     buildToolsVersion = '28.0.3'
     appCompactVersion = '1.1.0'
+    apacheComponents = '4.3.5'
+    apacheCommons = '1.3.2'
 }

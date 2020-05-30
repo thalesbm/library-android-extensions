@@ -27,4 +27,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
     implementation "androidx.appcompat:appcompat:$appCompactVersion"
+    implementation group: 'org.apache.httpcomponents', name: 'httpclient-android', version: "$apacheComponents"
+    implementation group: 'org.apache.commons', name: 'commons-io', version: "$apacheCommons"
 }
