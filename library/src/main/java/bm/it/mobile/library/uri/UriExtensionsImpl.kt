@@ -9,7 +9,7 @@ object UriExtensionsImpl {
 
     fun convertToString(context: Context, uri: Uri): String {
         val projection = arrayOf(MediaStore.Images.Media.DATA)
-        val cursor: Cursor = context.contentResolver.query(uri, projection, null, null, null)
+        val cursor: Cursor? = context.contentResolver.query(uri, projection, null, null, null)
         if (cursor != null) {
             val columnIndex = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA)
             cursor.moveToFirst()
