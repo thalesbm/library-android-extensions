@@ -2,6 +2,7 @@ package bm.it.mobile.library.integer
 
 import android.content.Context
 import android.graphics.Bitmap
+import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.RoundedBitmapDrawable
 
 fun Int.convertDrawableToBitmap(context: Context): Bitmap =
@@ -12,3 +13,6 @@ fun Int.convertDrawableToRoundedBitmap(context: Context): RoundedBitmapDrawable?
 
 fun Int.convertPixelToDp(context: Context): Int =
     IntegerExtensionsImpl.convertPixelToDp(context, this)
+
+fun Int.getColor(context: Context): Int =
+    IntegerExtensionsImpl.getColor(context, this)
