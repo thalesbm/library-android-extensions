@@ -1,4 +1,4 @@
-package bm.it.mobile.library.bitmap
+package bm.it.mobile.extensions.bitmap
 
 import android.content.Context
 import android.graphics.*

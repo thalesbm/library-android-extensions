@@ -1,4 +1,4 @@
-package bm.it.mobile.library.string
+package bm.it.mobile.extensions.string
 
 import android.content.Context
 import android.content.res.Resources
@@ -12,11 +12,11 @@ import android.util.Log
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.RoundedBitmapDrawable
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
-import bm.it.mobile.library.bitmap.convertToBase64
-import bm.it.mobile.library.bitmap.convertToByteArray
-import bm.it.mobile.library.bitmap.convertToRoundedBitmap
-import bm.it.mobile.library.bitmap.convertToSmallBitmap
-import bm.it.mobile.library.byteArray.convertToBase64
+import bm.it.mobile.extensions.bitmap.convertToBase64
+import bm.it.mobile.extensions.bitmap.convertToByteArray
+import bm.it.mobile.extensions.bitmap.convertToRoundedBitmap
+import bm.it.mobile.extensions.bitmap.convertToSmallBitmap
+import bm.it.mobile.extensions.byteArray.convertToBase64
 import org.apache.commons.io.IOUtils
 import java.io.FileInputStream
 import java.security.MessageDigest

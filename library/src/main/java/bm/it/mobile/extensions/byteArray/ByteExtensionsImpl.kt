@@ -1,11 +1,11 @@
-package bm.it.mobile.library.byteArray
+package bm.it.mobile.extensions.byteArray
 
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.util.Base64
 import androidx.core.graphics.drawable.RoundedBitmapDrawable
-import bm.it.mobile.library.bitmap.convertToRoundedBitmap
+import bm.it.mobile.extensions.bitmap.convertToRoundedBitmap
 
 object ByteExtensionsImpl {
 

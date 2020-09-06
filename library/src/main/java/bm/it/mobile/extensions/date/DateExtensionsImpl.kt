@@ -1,4 +1,4 @@
-package bm.it.mobile.library.date
+package bm.it.mobile.extensions.date
 
 import java.text.SimpleDateFormat
 import java.util.*

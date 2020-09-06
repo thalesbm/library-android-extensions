@@ -1,4 +1,4 @@
-package bm.it.mobile.library.uri
+package bm.it.mobile.extensions.uri
 
 import android.content.Context
 import android.database.Cursor

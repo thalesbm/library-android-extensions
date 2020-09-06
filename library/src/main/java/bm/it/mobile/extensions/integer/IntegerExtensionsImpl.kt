@@ -1,11 +1,11 @@
-package bm.it.mobile.library.integer
+package bm.it.mobile.extensions.integer
 
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.RoundedBitmapDrawable
-import bm.it.mobile.library.bitmap.convertToRoundedBitmap
+import bm.it.mobile.extensions.bitmap.convertToRoundedBitmap
 
 object IntegerExtensionsImpl {
 

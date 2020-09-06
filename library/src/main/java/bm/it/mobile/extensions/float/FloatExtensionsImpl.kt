@@ -1,4 +1,4 @@
-package bm.it.mobile.library.float
+package bm.it.mobile.extensions.float
 
 import android.content.Context
 import android.util.DisplayMetrics
