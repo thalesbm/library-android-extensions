@@ -14,6 +14,6 @@ allprojects {
 ###### Step 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.thalesbm:library-android-extensions:1.0.4'
+    implementation 'com.github.thalesbm:library-android-extensions:1.0.5'
 }
 ```

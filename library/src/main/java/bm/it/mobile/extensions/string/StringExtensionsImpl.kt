@@ -113,4 +113,13 @@ object StringExtensionsImpl {
         }
         return digest
     }
+
+    fun convertToFloat(text: String): Float {
+        val value = text.replace(",", ".")
+        return if (value.isEmpty()) {
+            0F
+        } else {
+            value.toFloat()
+        }
+    }
 }

@@ -11,7 +11,4 @@ fun ByteArray.convertToBitmap(): Bitmap =
     ByteExtensionsImpl.convertToBitmap(this)
 
 fun ByteArray.convertToRoundedBitmap(context: Context): RoundedBitmapDrawable? =
-    ByteExtensionsImpl.convertToRoundedBitmap(
-        context,
-        this
-    )
+    ByteExtensionsImpl.convertToRoundedBitmap(context, this)

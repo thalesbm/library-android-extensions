@@ -9,9 +9,7 @@ fun Date.formatToBrazilianDate(): String =
     DateExtensionsImpl.formatToBrazilianDate(this)
 
 fun Date.formatToBrazilianDateWithHour(): String =
-    DateExtensionsImpl.formatToBrazilianDateWithHour(
-        this
-    )
+    DateExtensionsImpl.formatToBrazilianDateWithHour(this)
 
 fun Date.compareToDate(date: Date): Boolean =
     DateExtensionsImpl.compareToDate(this, date)
