@@ -1,6 +1,6 @@
 # android-extensions
 
-#### Instalation
+#### Installation
 
 ###### Step 1. Add the JitPack repository to your build file
 ```
@@ -14,6 +14,6 @@ allprojects {
 ###### Step 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.thalesbm:android-extensions:1.0.0'
+    implementation 'com.github.thalesbm:library-android-dynamic-list:1.0.3'
 }
 ```
